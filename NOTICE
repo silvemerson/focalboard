@@ -1,0 +1,18 @@
+Focalboard Helm Chart - Modificado por Emerson Silva
+
+Este projeto contém código derivado de:
+  - Focalboard (https://github.com/mattermost/focalboard)
+  - Focalboard Helm Chart (https://github.com/mattermost/mattermost-helm)
+
+Copyright original © Mattermost, Inc.
+Licenciado sob a Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
+Modificações feitas por Emerson Silva incluem:
+  - Atualização do Helm Chart para corrigir problemas de porta padrão
+  - Adição de variáveis de ambiente para configuração via manifesto
+  - Compatibilização com Kubernetes >=1.20
+  - Documentação traduzida para português
+  - Mudança do processo de instalação para `kubectl apply`
+
+As modificações estão disponíveis neste repositório:
+  - https://github.com/silvemerson/focalboard.git

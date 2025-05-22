@@ -1,5 +1,3 @@
-# Focalboard
-
 # Focalboard - Manifesto Kubernetes
 
 Este é o manifesto Kubernetes para o [Focalboard](https://www.focalboard.com/).
@@ -9,6 +7,8 @@ Focalboard é uma alternativa open source e auto-hospedada ao Trello, Notion e A
 Ele ajuda a definir, organizar, acompanhar e gerenciar o trabalho entre indivíduos e equipes.
 
 O código-fonte do Focalboard está disponível [neste repositório](https://github.com/mattermost-community/focalboard).
+
+O fork trás muita coisa no projeto oficial de helm chart, então resolvi isolar aqui. 
 
 ---
 ⚠️ AVISO

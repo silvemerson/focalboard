@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: focalboard-deployment
+  namespace: focalboard
+  labels:
+    app: focalboard-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: focalboard-deployment
+  template:
+    metadata:
+      labels:
+        app: focalboard-deployment
+    spec:
+      containers:
+      - name: focalboard
+        image: mattermost/focalboard
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8000

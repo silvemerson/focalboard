@@ -1,0 +1,9 @@
+apiVersion: v2
+name: focalboard
+description: Focalboard Server
+type: application
+version: 0.9.0
+appVersion: "7.8.9"
+keywords:
+  - focalboard
+  - mattermost

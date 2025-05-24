@@ -21,3 +21,10 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
+        volumeMounts:
+        - mountPath: /data
+          name: focalboard-storage
+      volumes:
+      - name: focalboard-storage
+        persistentVolumeClaim:
+          claimName: focalboard-pvc

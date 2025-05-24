@@ -4,11 +4,12 @@ metadata:
   name: focalboard-ingress
   namespace: focalboard
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    # nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: focalboard.emersonlabs.local
+    http:
       paths:
       - path: /
         pathType: Prefix
